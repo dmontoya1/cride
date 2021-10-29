@@ -11,8 +11,8 @@ env = environ.Env()
 DEBUG = env.bool('DJANGO_DEBUG', False)
 
 # Language and timezone
-TIME_ZONE = 'America/Mexico_City'
-LANGUAGE_CODE = 'en-us'
+TIME_ZONE = 'America/Bogota'
+LANGUAGE_CODE = 'es-CO'
 SITE_ID = 1
 USE_I18N = True
 USE_L10N = True
@@ -134,7 +134,7 @@ EMAIL_BACKEND = env('DJANGO_EMAIL_BACKEND', default='django.core.mail.backends.s
 # Admin
 ADMIN_URL = 'admin/'
 ADMINS = [
-    ("""Pablo Trinidad""", 'pablotrinidad@ciencias.unam.mx'),
+    ("""Daniel Montoya""", 'dmontoya.web@gmail.com'),
 ]
 MANAGERS = ADMINS
 
